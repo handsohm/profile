@@ -1,0 +1,130 @@
+body {
+  background-color: RGBA(240, 240, 240, 1);
+  font-family: 'Montserrat', sans-serif;
+  color: RGB(60, 60, 60);
+
+}
+
+header {
+  font-family: 'Montserrat', sans-serif;
+  color: RGB(30, 30, 30);
+}
+
+a {
+  text-decoration: none;
+  color: RGB(130, 130, 130);
+
+}
+
+a:hover {
+  color: #DD4555;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 5px;
+  color: RGB(80, 80, 80);
+}
+
+h3 {
+  font-size: 20px;
+  padding: 5px;
+  color: RGB(80, 80, 80);
+}
+
+p {
+  font-size: 14px;
+}
+
+.img-circle {
+  background-image: url(images/me.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  background-position: -25px;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.intro-btn {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.golf-paragraph {
+  padding-bottom: 40px;
+}
+
+.golf-image {
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.decoration li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background: white;
+  border: 50px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 50px;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2)
+}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 4px;
+}
+
+.btn-red:hover {
+    background-color: #DD4555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 4px;
+}
+
+.btn-size {
+  width: 30px;
+  font-size: 30px;
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
